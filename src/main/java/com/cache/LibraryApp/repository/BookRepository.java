@@ -1,4 +1,4 @@
-package com.cache.LibraryApp;
+package com.cache.LibraryApp.repository;
 
 import com.cache.LibraryApp.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;

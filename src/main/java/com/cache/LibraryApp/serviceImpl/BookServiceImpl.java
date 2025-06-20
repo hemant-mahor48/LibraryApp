@@ -1,6 +1,6 @@
 package com.cache.LibraryApp.serviceImpl;
 
-import com.cache.LibraryApp.BookRepository;
+import com.cache.LibraryApp.repository.BookRepository;
 import com.cache.LibraryApp.model.Book;
 import com.cache.LibraryApp.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
