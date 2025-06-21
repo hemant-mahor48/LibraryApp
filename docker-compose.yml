@@ -3,7 +3,7 @@ version: "3.9"
 services:
   libraryapp:
     build: .
-    image: libraryapp:latest
+    image: "hemantmahor611/libraryapp"
     container_name: libraryapp-container
     ports:
       - "8080:8080"
