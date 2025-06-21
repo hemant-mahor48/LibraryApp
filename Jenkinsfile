@@ -12,7 +12,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                build(
+                buildDockerImage(
                     "hemantmahor611",
                     "libraryapp",
                     "latest"
